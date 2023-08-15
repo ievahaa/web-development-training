@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(251, 239, 249);
+  color: rgb(27, 16, 121);
+  font-family: "Comfortaa", cursive;
+}
+
+h1 {
+  font-family: "Sansita Swashed", cursive;
+  padding: 0 0 50px 0;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: "Comfortaa", cursive;
+  padding-bottom: 50px;
+}
+h3 {
+  font-family: "Sansita Swashed", cursive;
+}
+
+.ovals {
+  border-radius: 50%;
+}
+
+.varda-karte {
+  text-align: center;
+
+  background-color: rgb(230, 236, 254);
+}
+
+.prasmes {
+  background-color: rgb(230, 236, 254);
+}
+
+.feature-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.75rem;
+}
