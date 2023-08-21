@@ -19,16 +19,38 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="varda-karte">
+    <section class="fixed-top bar">
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-end py-1 burti">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page">Sākums</a>
+            </li>
+            <li class="nav-item">
+              <a href="#parmani" class="nav-link">Par mani</a>
+            </li>
+            <li class="nav-item">
+              <a href="#manasprasmes" class="nav-link">Manas prasmes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sazina" class="nav-link">Saziņai</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+    </section>
+
+    <div class="varda-karte mt-5">
       <img
-        class="py-5"
+        class="py-5 elem"
         src="./images/9-2-decorative-line-black-transparent.png"
         alt="dekoratīva līnija"
       />
       <h1>Es esmu Ieva</h1>
       <h2>Programmēšanas skolotāja</h2>
     </div>
-    <div class="px-4 my-5 text-center">
+
+    <div class="px-4 my-5 text-center" id="parmani">
       <h3 class="display-4 fw-bold">Par mani</h3>
 
       <div class="container px-5">
@@ -51,7 +73,9 @@
 
     <section class="prasmes">
       <div class="container">
-        <h3 class="display-4 fw-bold text-center pt-5">Manas prasmes</h3>
+        <h3 class="display-4 fw-bold text-center pt-5" id="manasprasmes">
+          Manas prasmes
+        </h3>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col">
             <div
@@ -125,7 +149,7 @@
 
     <section>
       <div class="container">
-        <h3 class="display-4 fw-bold text-center py-5">Saziņai</h3>
+        <h3 class="display-4 fw-bold text-center py-5" id="sazina">Saziņai</h3>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">
             Ja patīk tas, ko es daru un vēlies manus pakalpojumus, raksti.
